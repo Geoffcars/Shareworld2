@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shareworld Foundation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {font-family: Arial, sans-serif; margin:0; line-height:1.6;}
+header {background:#0b5ed7; color:white; padding:20px; text-align:center;}
+section {padding:40px;}
+img {max-width:100%; border-radius:10px; margin:10px 0;}
+.grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+.footer {background:#111; color:white; text-align:center; padding:20px;}
+button {padding:12px 20px; background:#0b5ed7; color:white; border:none; border-radius:6px; cursor:pointer;}
+input, textarea {width:100%; max-width:400px; padding:10px;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Shareworld Foundation</h1>
+<p>Empowering Communities • Changing Lives</p>
+<img src="assets/hero.jpg" alt="Hero Image">
+</header>
+
+<section>
+<h2>Founder</h2>
+<img src="assets/founder.jpg" width="300">
+<p><strong>G.B Onchiri</strong> – Founder & Director</p>
+</section>
+
+<section>
+<h2>Success Stories</h2>
+<div class="grid">
+<img src="assets/success1.jpg">
+<img src="assets/success2.jpg">
+<img src="assets/success3.jpg">
+<img src="assets/success4.jpg">
+</div>
+</section>
+
+<section>
+<h2>Our Programs</h2>
+<div class="grid">
+<img src="assets/tree1.jpg">
+<img src="assets/tree2.jpg">
+<img src="assets/medical1.jpg">
+<img src="assets/food1.jpg">
+</div>
+</section>
+
+<section>
+<h2>Our Partners</h2>
+<img src="assets/partners.jpg">
+</section>
+
+<section>
+<h2>Donate</h2>
+<button onclick="window.open('https://www.paypal.com/donate')">Donate via PayPal</button>
+<button onclick="alert('M-Pesa Paybill: ADD_YOUR_PAYBILL')">Donate via M-Pesa</button>
+</section>
+
+<section>
+<h2>Contact & Newsletter</h2>
+<form action="mailto:shareworldfoundation2024@gmail.com" method="post" enctype="text/plain">
+<input type="text" name="name" placeholder="Your Name" required><br><br>
+<input type="email" name="email" placeholder="Your Email" required><br><br>
+<textarea name="message" placeholder="Your Message"></textarea><br><br>
+<button type="submit">Send</button>
+</form>
+</section>
+
+<div class="footer">
+<p>&copy; 2024 Shareworld Foundation | Kayole, Nairobi, Kenya</p>
+</div>
+
+</body>
+</html>
